@@ -13,7 +13,7 @@
     {!! TCMS()->dataTableCss() !!}
 @endsection
 @section('content')
-        <div class="card"><x-admin.default.datatable :dataTable="$dataTable" /></div>
+        <div class="card min-vh-100"><x-admin.default.datatable :dataTable="$dataTable" /></div>
 @endsection
 @section('footer')
     {!! TCMS()->dataTableJs() !!}
