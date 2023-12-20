@@ -2,8 +2,8 @@
 /**
  * bu eklenti CMS için
  */
-defined('REPOSITY_FOLDER') or define('REPOSITY_FOLDER', 'tulparstudyo/cms-reposity-main');
-defined('REPOSITY_LANG') or define('REPOSITY_LANG', 'tulparstudyo/cms-reposity-main::localize.');
+defined('REPOSITY_FOLDER') or define('REPOSITY_FOLDER', 'tulparcms/cms-reposity-main');
+defined('REPOSITY_LANG') or define('REPOSITY_LANG', 'tulparcms/cms-reposity-main::localize.');
 
 if(is_file(__DIR__.'/model/TcmsReposity.php')){
     include_once(__DIR__.'/model/TcmsReposity.php');
