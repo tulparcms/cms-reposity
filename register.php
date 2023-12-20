@@ -12,13 +12,12 @@ if(is_file(__DIR__.'/controller/TcmsReposityController.php')){
     include_once(__DIR__.'/controller/TcmsReposityController.php');
 }
 
-TCMS()->addAction('routing', 'cms_reposity_routing', 1);
 TCMS()->addAction('localize', 'cms_reposity_localize', 1);
-
 function cms_reposity_localize(){
     $path = storage_path('tcms/'.REPOSITY_FOLDER.'/lang');
     \Lang::addNamespace(REPOSITY_FOLDER, $path);
 }
+TCMS()->addAction('routing', 'cms_reposity_routing', 1);
 function cms_reposity_routing(){
     Route::group([
         'prefix'=>\Tulparstudyo\Cms\CmsLoader::ADMIN,
