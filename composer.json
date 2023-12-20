@@ -1,0 +1,50 @@
+{
+    "name": "tulparstudyo/cms-reposity",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "license": "MIT",
+    "type": "tcms",
+    "version": "1.01",
+    "keywords": [
+        "tulparstudyo",
+        "cms-reposity",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Ahmet Hamdi",
+            "email": "bayrakahmethamdi@gmail.com",
+            "homepage": "https://tulparstudyo.com",
+            "role": "Author"
+        }
+    ],
+    "homepage": "https://gtulparstudyo.com",
+    "support": {
+        "issues": "https://github.com/tulparstudyo/cms-reposity/issues",
+        "source": "https://github.com/tulparstudyo/cms-reposity",
+        "docs": "https://github.com/tulparstudyo/cms-reposity/docs",
+        "rss": "https://github.com/tulparstudyo/cms-reposity/rss",
+        "security": "https://github.com/tulparstudyo/cms-reposity/security"
+    },
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {
+    },
+    "conflict": {
+        "phpunit/phpunit": "<8.0"
+    },
+    "autoload": {
+        "psr-4": {
+        },
+        "files": []
+    },
+    "autoload-dev": {
+        "psr-4": {
+        },
+        "files": []
+    },
+    "config": {
+    },
+    "scripts": {
+    }
+}
